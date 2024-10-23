@@ -1,10 +1,10 @@
-<center><img src="./public/logo.png" width="60%" height="100%" alt="Logo"/></center>
+<p align="center"><img src="./public/logo.png" width="60%" height="100%" alt="Logo"/></p>
 
 ---
 
-<center>
+<p align="center">
 Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
-</center>
+</p>
 
 ## Features
 
@@ -26,7 +26,7 @@ pip install requests json socket Wappalyzer
 
 ### <br>indra.py -h <br><br>
 
-```bash
+```css
 python3 indra.py -h
 
 Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
@@ -54,7 +54,7 @@ FLAGS:
 
 To use Indra, run the following command:
 
-```
+```python
 python3 indra.py 1.1.1.1
 
 Starting Indra 1.0 ( https://github.com/R0X4R/Indra ) at 2024-00-00 00:00:00
@@ -101,7 +101,7 @@ Vulnerabilities:
 
 ### To get output in json
 
-```
+```python
 python3 indra.py hide.ip.add.ress -oJ
 
 Starting Indra 1.0 ( https://github.com/R0X4R/Indra ) at 2024-00-00 00:00:00
