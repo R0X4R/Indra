@@ -21,6 +21,10 @@ Indra is a powerful, versatile, and user-friendly Python-based network scanning 
 To install Indra, follow these steps:
 
 ```bash
+pip install indra
+```
+
+```bash
 pip install requests json socket Wappalyzer
 ```
 
