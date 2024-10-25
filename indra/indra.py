@@ -203,8 +203,8 @@ def run_scan(target, ports=None, output_format="text", scan_range=None):
 
     # Print initial information immediately
     if output_format != "port_only":
-        print(f"\nStarting Indra 1.0 ( https://github.com/R0X4R/Indra ) at {current_time}")
-        print(f"Indra scan report for {target}")
+        print(f"\nStarting Indraa ( https://github.com/R0X4R/Indraa ) at {current_time}")
+        print(f"indraa scan report for {target}")
 
     # Check host status
     try:
@@ -272,7 +272,7 @@ def run_scan(target, ports=None, output_format="text", scan_range=None):
         print(f"Scan completed in {scan_duration:.2f} seconds")
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.", add_help=False)
+    parser = argparse.ArgumentParser(description="Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.", add_help=False)
     parser.add_argument("target", nargs="?", help="The target domain, IP address, or CIDR range to scan")
     parser.add_argument("-p", "--ports", help="Ports to scan (e.g. 22,80,443 or 21-30)", type=str)
     parser.add_argument("-oX", "--output-xml", help="Output scan in XML format", action="store_true")
@@ -285,11 +285,11 @@ def parse_args():
 
 def usage():
     print("""
-Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
+Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
 
 USAGE:
 
-    indra [flags]
+    indraa [flags]
 
 POSITIONAL ARGUMENTS:
 

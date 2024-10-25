@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
+Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
 </p>
 
 ## Features
@@ -18,26 +18,26 @@ Indra is a powerful, versatile, and user-friendly Python-based network scanning 
 
 ## Installation
 
-To install Indra, follow these steps:
+To install `Indraa`, follow these steps:
 
 ```bash
-pip install indra
+pip install indraa
 ```
 
 ```bash
 pip install requests json socket Wappalyzer
 ```
 
-### <br>indra.py -h <br><br>
+### <br>indraa.py -h <br><br>
 
 ```css
-python3 indra.py -h
+python3 indraa.py -h
 
-Indra is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
+Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.
 
 USAGE:
 
-    indra [flags]
+    indraa [flags]
 
 POSITIONAL ARGUMENTS:
 
@@ -56,13 +56,13 @@ FLAGS:
 
 ## Usage
 
-To use Indra, run the following command:
+To use `Indraa`, run the following command:
 
 ```python
-python3 indra.py 1.1.1.1
+python3 indraa.py 1.1.1.1
 
-Starting Indra 1.0 ( https://github.com/R0X4R/Indra ) at 2024-00-00 00:00:00
-Indra  scan report for 1.1.1.1
+Starting indraa 1.0 ( https://github.com/R0X4R/indraa ) at 2024-00-00 00:00:00
+indraa  scan report for 1.1.1.1
 Host is up
 
 Ports found: 53, 80, 443, 2082, 2083, 2086, 2087, 8443, 8880
@@ -85,10 +85,10 @@ Scan completed in 63.36 seconds
 ### If your host has some vulnerability
 
 ```
-python3 indra.py hide.ip.add.res
+python3 indraa.py hide.ip.add.res
 
-Starting Indra 1.0 ( https://github.com/R0X4R/Indra ) at 2024-00-00 00:00:00
-Indra scan report for hide.ip.add.ress
+Starting indraa 1.0 ( https://github.com/R0X4R/indraa ) at 2024-00-00 00:00:00
+indraa scan report for hide.ip.add.ress
 Host is up
 
 Ports found: 80
@@ -106,10 +106,10 @@ Vulnerabilities:
 ### To get output in json
 
 ```python
-python3 indra.py hide.ip.add.ress -oJ
+python3 indraa.py hide.ip.add.ress -oJ
 
-Starting Indra 1.0 ( https://github.com/R0X4R/Indra ) at 2024-00-00 00:00:00
-Indra scan report for hide.ip.add.ress
+Starting indraa 1.0 ( https://github.com/R0X4R/indraa ) at 2024-00-00 00:00:00
+indraa scan report for hide.ip.add.ress
 Host is up
 
 {
@@ -147,7 +147,7 @@ Host is up
 You can scan multiple targets by providing a list of hosts or networks:
 
 ```bash
-python3 indra.py -iL targets.txt
+python3 indraa.py -iL targets.txt
 ```
 
 Where `targets.txt` contains a list of IP addresses or domain names.
@@ -157,7 +157,7 @@ Where `targets.txt` contains a list of IP addresses or domain names.
 You can also provide input directly from the command line:
 
 ```bash
-echo hi.de.ip.ad | python3 indra.py
+echo hi.de.ip.ad | python3 indraa.py
 ```
 
 ### Specifying Ports to Scan
@@ -165,31 +165,31 @@ echo hi.de.ip.ad | python3 indra.py
 To scan specific ports, use the `-p` flag:
 
 ```bash
-python3 indra.py 1.1.1.1 -p 22,80,443
+python3 indraa.py 1.1.1.1 -p 22,80,443
 ```
 
 ### Output Formats
 
-Indra supports multiple output formats. Here are some examples:
+indraa supports multiple output formats. Here are some examples:
 
 - **XML Format**:
     ```bash
-    python3 indra.py 1.1.1.1 -oX
+    python3 indraa.py 1.1.1.1 -oX
     ```
 
 - **JSON Format**:
     ```bash
-    python3 indra.py 1.1.1.1 -oJ
+    python3 indraa.py 1.1.1.1 -oJ
     ```
 
 - **Normal Text Format**:
     ```bash
-    python3 indra.py 1.1.1.1 -oN
+    python3 indraa.py 1.1.1.1 -oN
     ```
 
 - **Port-Only Format**:
     ```bash
-    python3 indra.py 1.1.1.1 -oP
+    python3 indraa.py 1.1.1.1 -oP
     ```
 
 <br>
