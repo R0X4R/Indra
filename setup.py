@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="indra",
+    name="indraa",
     version="1.0.0",
     description="A versatile network scanning and vulnerability assessment tool",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Eshan",
+    author="Eshan Singh (R0X4R)",
     author_email="r0x4r@yahoo.com",
-    url="https://github.com/R0X4R/Indra",
+    url="https://github.com/R0X4R/Indraa",
     license="MIT",
     packages=find_packages(),
     install_requires=[
