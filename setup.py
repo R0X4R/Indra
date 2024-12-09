@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="indraaa",
-    version="1.0.0",
-    description="A versatile network scanning and vulnerability assessment tool",
+    name="indraa",
+    version="2.0",
+    description="Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Eshan Singh (R0X4R)",
+    author="Eshan Singh",
     author_email="r0x4r@yahoo.com",
-    url="https://github.com/R0X4R/indraaa",
+    url="https://github.com/R0X4R/indraa",
     license="MIT",
     packages=find_packages(),
     install_requires=[
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "indraa = indraa.indraa:run_scan"
+            "indraa = indraa.main:run_scan"
         ]
     },
     classifiers=[

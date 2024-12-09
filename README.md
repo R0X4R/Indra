@@ -1,4 +1,4 @@
-<p align="center"><img src="./public/logo.png" width="60%" height="100%" alt="Logo"/></p>
+<p align="center"><img src="https://github.com/R0X4R/indraa/blob/main/public/logo.png?raw=true" width="60%" height="100%" alt="Logo"/></p>
 
 ---
 

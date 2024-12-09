@@ -371,4 +371,4 @@ if __name__ == "__main__":
             run_scan(target, ports=ports, output_format=output_format, scan_range=default_ports)
     except KeyboardInterrupt:
         if output_format != "port_only":
-            print("\nStopping the scan...")
+            exit()
