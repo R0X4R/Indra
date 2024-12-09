@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="indraa",
-    version="2.0",
+    version="2.0.1",
     description="Indraa is a powerful, versatile, and user-friendly Python-based network scanning and vulnerability assessment tool.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "requests",
-        "Wappalyzer",
+        "python-Wappalyzer",
         "argparse"
     ],
     entry_points={

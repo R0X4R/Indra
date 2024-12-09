@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+'''
+Author: R0X4R (Eshan Singh)
+Version: 2.0.1
+'''
+
 import argparse
 import requests
 import subprocess
